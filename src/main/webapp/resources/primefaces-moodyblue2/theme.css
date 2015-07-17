@@ -413,3 +413,48 @@ label.ui-outputlabel {
     -webkit-box-shadow: 0px 5px 10px rgba(0,0,64,0.8) !important;
     box-shadow: 0px 5px 10px rgba(0,0,64,0.8) !important;
 }
+
+/* custom states and images */
+/* .ui-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.ui-icon,
+.ui-widget-content .ui-icon {
+    background-image: url("#{resource['primefaces-moodyblue2:images/ui-custom-icons.png']}");
+}
+.ui-widget-header .ui-icon {
+    background-image: url("#{resource['primefaces-moodyblue2:images/ui-custom-icons.png']}"); 
+}
+.ui-state-default .ui-icon {
+    background-image: url("#{resource['primefaces-moodyblue2:images/ui-custom-icons.png']}"); 
+}
+.ui-state-hover .ui-icon,
+.ui-state-focus .ui-icon {
+    background-image: url("#{resource['primefaces-moodyblue2:images/ui-custom-icons.png']}"); 
+}
+.ui-state-active .ui-icon {
+    background-image: url("#{resource['primefaces-moodyblue2:images/ui-custom-icons.png']}"); 
+}
+.ui-state-highlight .ui-icon {
+    background-image: url("#{resource['primefaces-moodyblue2:images/ui-custom-icons.png']}"); 
+}
+.ui-state-error .ui-icon,
+.ui-state-error-text .ui-icon {
+    background-image: url("#{resource['primefaces-moodyblue2:images/ui-custom-icons.png']}"); 
+} */
+
+/*custom icons positioning */
+ 
+/* .ui-icon-edit { background-position: 0 0; } 
+.ui-icon-bookmark { background-position: -26px 0; } 
+.ui-icon-next { background-position: -52px 0; } 
+.ui-icon-previous { background-position: -78px 0; } 
+.ui-icon-new { background-position: -104px 0; } 
+.ui-icon-delete { background-position: -130px 0; } 
+.ui-icon-refresh { background-position: -156px 0; } 
+.ui-icon-print { background-position: -182px 0; } 
+.ui-icon-home { background-position: -208px 0; } 
+.ui-icon-admin { background-position: -234px 0; } 
+.ui-icon-contactus { background-position: -260px 0; }  */

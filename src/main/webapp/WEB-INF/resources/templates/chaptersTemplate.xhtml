@@ -30,6 +30,11 @@
                     <p:submenu id="chapter5" label="Chapter 5">
                         <p:menuitem id="c5index" value="Let's get creative!" url="/chapter5/index.xhtml"/>
                     </p:submenu>
+                    <p:submenu id="chapter6" label="Chapter 6">
+                    	<p:menuitem id="c6standardicons" value="Standard Icon Set" url="/chapter6/standardThemeIcons.xhtml"/>
+                    	<p:menuitem id="c6customicons" value="Custom Icons" url="/chapter6/addCustomThemeIcons.xhtml"/>
+                        <p:menuitem id="c6fontawesome" value="FontAwesome" url="/chapter6/fontawesome.xhtml"/>
+                    </p:submenu>
                     <f:facet name="options">
                         <p:outputLabel value="Current theme: #{currentTheme.theme} " for="themeSwitcher" style="vertical-align: 50%"/>
                         <p:themeSwitcher id="themeSwitcher" effect="fade" value="#{currentTheme.theme}">
