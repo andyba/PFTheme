@@ -12,6 +12,7 @@
                 <h:outputStylesheet library="css" name="default.css"/>
             </f:facet>
             <title><ui:insert name="title">Please add a proper title for this page!</ui:insert></title>
+            <ui:insert name="head" />
         </h:head>
 
         <h:body>
@@ -34,6 +35,11 @@
                     	<p:menuitem id="c6standardicons" value="Standard Icon Set" url="/chapter6/standardThemeIcons.xhtml"/>
                     	<p:menuitem id="c6customicons" value="Custom Icons" url="/chapter6/addCustomThemeIcons.xhtml"/>
                         <p:menuitem id="c6fontawesome" value="FontAwesome" url="/chapter6/fontawesome.xhtml"/>
+                    </p:submenu>
+                    <p:submenu id="chapter7" label="Chapter 7">
+                    	<p:menuitem id="c7schedulecomponent" value="Schedule component" url="/chapter7/scheduleComponent.xhtml"/>
+                    	<p:menuitem id="c7dynamicchangesclientside" value="Dynamic Changes clientside" url="/chapter7/dynamicChangesClientsidecall.xhtml"/>
+                    	<p:menuitem id="c7dynamicchangesserverside" value="Dynamic Changes serverside" url="/chapter7/dynamicChangesServersidecall.xhtml"/>
                     </p:submenu>
                     <f:facet name="options">
                         <p:outputLabel value="Current theme: #{currentTheme.theme} " for="themeSwitcher" style="vertical-align: 50%"/>
