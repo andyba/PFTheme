@@ -17,6 +17,7 @@
 
         <h:body>
             <h:form id="navForm">
+              <ui:insert name="menu">
                 <p:menubar id="navBar">
                     <p:menuitem id="home" value="Home" url="/index.xhtml"/>
                     <p:submenu id="chapter2" label="Chapter 2">
@@ -41,6 +42,11 @@
                     	<p:menuitem id="c7dynamicchangesclientside" value="Dynamic Changes clientside" url="/chapter7/dynamicChangesClientsidecall.xhtml"/>
                     	<p:menuitem id="c7dynamicchangesserverside" value="Dynamic Changes serverside" url="/chapter7/dynamicChangesServersidecall.xhtml"/>
                     </p:submenu>
+                    <p:submenu id="chapter8" label="Chapter 8">
+                    	<p:menuitem id="c8mobileindex" value="Hello mobile world" url="/chapter8/mobileindex.xhtml"/>
+                    	<p:menuitem id="c8primefacespage" value="PrimeFaces registration" url="/chapter8/primefacespage.xhtml"/>
+                    	<p:menuitem id="c8primefacesmobilepage" value="PrimeFaces mobile registration" url="/chapter8/primefacesmobilepage.xhtml"/>
+                    </p:submenu>
                     <f:facet name="options">
                         <p:outputLabel value="Current theme: #{currentTheme.theme} " for="themeSwitcher" style="vertical-align: 50%"/>
                         <p:themeSwitcher id="themeSwitcher" effect="fade" value="#{currentTheme.theme}">
@@ -50,6 +56,7 @@
                         </p:themeSwitcher>
                     </f:facet>
                 </p:menubar>
+              </ui:insert>
             </h:form>
             <p:panel id="content" style="text-align: center">
                 <ui:insert name="content">Content</ui:insert>
