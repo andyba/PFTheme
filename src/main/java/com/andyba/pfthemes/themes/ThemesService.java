@@ -44,6 +44,7 @@ public class ThemesService {
         "midnight",
         "mint-choc",
         "moodyblue2",
+        "moodyblue3",
         "overcast",
         "pepper-grinder",
         "redmond",
